@@ -7,7 +7,6 @@ class EmailSender(object):
     def __init__(self, sender_email='', sender_name=''):
         self.sender_name = sender_name
         self.sender_email = sender_email
-        pass
 
     @abc.abstractmethod
     def login(self, password):
